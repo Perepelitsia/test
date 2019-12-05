@@ -1,5 +1,41 @@
-body{
+nav{
 	/*max-width: 1024px;*/
 	margin-left: 114px;
 	margin-right: 112px;
+}
+nav .container .row{
+	margin-top:15px;
+}
+.logo-img{
+	margin-left:27px;
+	margin-right: 15px;
+}
+.col-7.logo{
+	font-size: 39px;
+	align-items: center;
+	padding-bottom: 10px
+}
+.col-5{
+	margin-top: 16px;
+}
+.nav-bar{
+	list-style: none;
+	display: flex;
+	text-decoration: none;
+	justify-content: space-around;
+}
+.nav-bar-item{
+	font-size: 20px;
+	text-decoration: none;
+	color:#6c6c6c!important;
+	margin-top: 33px;
+}
+.nav-bar-item:hover{
+	text-decoration:none;
+	color:#6c6c6c;
+	border-bottom: 3px solid #5094f2;
+	padding-bottom: 21px;
+}
+.carousel-inner{
+	height: 480px!important;
 }
