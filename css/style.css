@@ -36,6 +36,9 @@ nav .container .row{
 	border-bottom: 3px solid #5094f2;
 	padding-bottom: 21px;
 }
+.baner-top{
+	height: 550px;
+}
 .carousel-inner{
 	height: 488px!important;
 	z-index: 0;
@@ -51,19 +54,19 @@ nav .container .row{
 .baner-bottom{
 	position: relative;
 	z-index: 2;
-	bottom: 8px;
+	bottom:8px;
 	width: 100%;
 }
 .baner-phone{
 	position:relative;
 	z-index: 3;
-	bottom: 1082px;
+	bottom: 520px;
 	left:175px;
 }
 .baner-text{
 	position: relative;
 	z-index: 3;
-	bottom: 1406px;
+	bottom: 860px;
 	left:626px;
 	color: white;
 	width: 500px;
@@ -87,4 +90,58 @@ nav .container .row{
 .baner-button img{
 	margin-right: 10px;
 	margin-bottom: 5px;
+}
+.contenet{
+	z-index: 1;
+	text-align: center;
+}
+.col-4{
+	text-align: center;
+	margin-top: 10px;
+}
+.content-h{
+	color:#5094f2;
+	font-size: 21px;
+	margin-top: 30px;
+}
+.conetnt-text{
+	color:#9f9f9f;
+	font-size: 15px;
+}
+.content-bottom{
+	text-align: left;
+	width: 1024px;
+	margin-top: 90px;
+}
+.content-bottom-h{
+	color:#6f7173;
+	font-size: 43px;
+}
+.content-bottom-img{
+	margin-top: 37px;
+	float:left;
+	margin-right: 82px;
+}
+.content-bottom-h-text{
+	color:#6f7173;
+	font-size: 26px;
+}
+.content-bottom-text{
+	margin-top: 10px;
+	color:#909090;
+	font-size: 16px;
+	line-height: 264%;
+
+}
+footer hr{
+	color: #e5e5e5;
+	margin-bottom: 41px;
+}
+footer{
+	margin-top: 70px;
+	text-align: center;
+	color: #909090;
+	font-size:16px;
+	padding-bottom: 47px;
+
 }
