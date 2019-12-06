@@ -1,0 +1,45 @@
+@media screen and (max-width: 1440px){
+	.nav-bar li{
+	padding-right: 15px;
+	}
+	.baner-text{
+	left:607px;
+	}
+	.baner-text p.h{
+	font-size: 31px;
+	}
+	.baner-text p{
+	font-size: 22px;
+	}
+	.baner-text span{
+	font-size: 18px;
+	}
+	.content-bottom{
+	text-align: left;
+	width: 800px;
+	margin-top: 90px;
+	}
+}
+@media screen and (max-width: 1024px){
+	.baner-phone{
+	width: 200px;
+	bottom: 462px;
+    left: 105px;
+	}
+	.baner-text{
+	position: absolute;
+	bottom: 688px;
+	left: 360px;
+	width: 350px;
+	}
+
+}
+@media screen and (max-width: 768px){
+	.baner-text{
+	bottom: -50px;
+	}
+	
+}
+@media screen and (max-width: 425px){
+
+}
