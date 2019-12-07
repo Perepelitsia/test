@@ -3,7 +3,7 @@
 	padding-right: 15px;
 	}
 	.baner-text{
-	left:607px;
+	left:696px;
 	}
 	.baner-text p.h{
 	font-size: 31px;
@@ -22,24 +22,57 @@
 }
 @media screen and (max-width: 1024px){
 	.baner-phone{
-	width: 200px;
+	width: 250px;
 	bottom: 462px;
-    left: 105px;
+    left: 150px;
 	}
 	.baner-text{
 	position: absolute;
-	bottom: 688px;
-	left: 360px;
+	bottom: -68px;
+	left: 450px;
 	width: 350px;
 	}
 
 }
 @media screen and (max-width: 768px){
+	.baner-phone{
+	width: 250px;
+	bottom: 462px;
+    left: 105px;
+	}
 	.baner-text{
 	bottom: -50px;
+	left: 400px;
 	}
-	
+	.baner-text p.h{
+	font-size: 29px;
+	}
+	.baner-text p{
+	font-size: 18px;
+	}
+	.baner-text span{
+	font-size: 15px;
+	}
+	.baner-bottom{
+	position: relative;
+	z-index: 2;
+	bottom:93px;
+	width: 100%;
+	}
+	.baner-top {
+    height: 450px;
+	}
+	.content-bottom.mx-auto{
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+	}
+	.content-bottom{
+	width: 760px;
+	}
+	.content-bottom-img{
+	margin-right: 20px;
+	width: 320px;
+	}	
 }
-@media screen and (max-width: 425px){
 
-}
